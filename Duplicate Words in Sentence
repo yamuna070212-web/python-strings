@@ -1,0 +1,15 @@
+text = "python java python c java"
+
+words = text.split()
+
+duplicates = set()
+
+for word in words:
+    if words.count(word) > 1:
+        duplicates.add(word)
+
+print(duplicates)
+
+Output
+
+{'python', 'java'}
