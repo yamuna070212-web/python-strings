@@ -1,0 +1,14 @@
+text = "python_programming_language"
+
+words = text.split("_")
+
+camel = words[0]
+
+for word in words[1:]:
+    camel += word.capitalize()
+
+print(camel)
+
+Output
+
+pythonProgrammingLanguage
