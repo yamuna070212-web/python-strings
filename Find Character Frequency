@@ -1,0 +1,7 @@
+text = "programming"
+
+print(text.count("g"))
+
+Output
+
+2
