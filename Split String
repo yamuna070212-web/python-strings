@@ -1,0 +1,7 @@
+text = "Python,Java,C++"
+
+print(text.split(","))
+
+Output
+
+['Python', 'Java', 'C++']
