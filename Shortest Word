@@ -1,0 +1,9 @@
+text = "Python programming language"
+
+words = text.split()
+
+print(min(words, key=len))
+
+Output
+
+Python
