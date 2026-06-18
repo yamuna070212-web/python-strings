@@ -1,0 +1,12 @@
+text = "python"
+
+freq = {}
+
+for ch in text:
+    freq[ch] = freq.get(ch, 0) + 1
+
+print(freq)
+
+Output
+
+{'p': 1, 'y': 1, 't': 1, 'h': 1, 'o': 1, 'n': 1}
