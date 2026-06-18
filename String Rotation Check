@@ -1,0 +1,11 @@
+str1 = "abcd"
+str2 = "cdab"
+
+if str2 in (str1 + str1):
+    print("Rotation")
+else:
+    print("Not Rotation")
+
+Output
+
+Rotation
