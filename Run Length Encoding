@@ -1,0 +1,20 @@
+text = "wwwwaaadexxxxxx"
+
+encoded = ""
+count = 1
+
+for i in range(len(text)-1):
+
+    if text[i] == text[i+1]:
+        count += 1
+    else:
+        encoded += str(count) + text[i]
+        count = 1
+
+encoded += str(count) + text[-1]
+
+print(encoded)
+
+Output
+
+4w3a1d1e6x
