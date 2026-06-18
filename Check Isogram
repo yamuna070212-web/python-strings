@@ -1,0 +1,10 @@
+text = "lamp"
+
+if len(text) == len(set(text)):
+    print("Isogram")
+else:
+    print("Not Isogram")
+
+Output
+
+Isogram
