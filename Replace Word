@@ -1,0 +1,7 @@
+text = "I like Java"
+
+print(text.replace("Java", "Python"))
+
+Output
+
+I like Python
