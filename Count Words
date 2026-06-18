@@ -1,0 +1,7 @@
+text = "Python is easy to learn"
+
+print(len(text.split()))
+
+Output
+
+5
