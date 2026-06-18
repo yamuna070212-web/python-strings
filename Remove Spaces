@@ -1,0 +1,7 @@
+text = "P y t h o n"
+
+print(text.replace(" ", ""))
+
+Output
+
+Python
