@@ -1,0 +1,7 @@
+languages = ["Python", "Java", "C++"]
+
+print("-".join(languages))
+
+Output
+
+Python-Java-C++
