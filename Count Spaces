@@ -1,0 +1,7 @@
+text = "Python Programming Language"
+
+print(text.count(" "))
+
+Output
+
+2
