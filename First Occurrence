@@ -1,0 +1,7 @@
+text = "programming"
+
+print(text.find("g"))
+
+Output
+
+3
