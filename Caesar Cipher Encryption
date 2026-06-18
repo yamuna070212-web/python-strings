@@ -1,0 +1,13 @@
+text = "hello"
+shift = 3
+
+encrypted = ""
+
+for ch in text:
+    encrypted += chr(ord(ch) + shift)
+
+print(encrypted)
+
+Output
+
+khoor
