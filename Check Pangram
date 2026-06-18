@@ -1,0 +1,12 @@
+text = "The quick brown fox jumps over the lazy dog"
+
+alphabet = "abcdefghijklmnopqrstuvwxyz"
+
+if all(ch in text.lower() for ch in alphabet):
+    print("Pangram")
+else:
+    print("Not Pangram")
+
+Output
+
+Pangram
