@@ -1,0 +1,10 @@
+text = "Python is easy"
+
+words = text.split()
+
+for word in words:
+    print(word[::-1], end=" ")
+
+Output
+
+nohtyP si ysae
